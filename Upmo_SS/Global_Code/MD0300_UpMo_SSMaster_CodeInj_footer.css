@@ -1,0 +1,21 @@
+<!-- BACk TO TOP BUTTONHTML inside Code Injection/Page Settings -->
+<a href="#" class="btt"><i class="fa fa-chevron-up"></i></a>
+
+
+<script>
+var scrolled = 400;
+$(window).scroll(function() {
+  if ( $(window).scrollTop() > scrolled ) {
+    $('a.btt').fadeIn('slow');
+  } else {
+    $('a.btt').fadeOut('slow');
+  }
+});
+</script>
+
+<script>
+$('a.btt').click(function() {
+  $('html, body').animate({ scrollTop: 0 }, 700);
+  return false;
+});
+</script>
