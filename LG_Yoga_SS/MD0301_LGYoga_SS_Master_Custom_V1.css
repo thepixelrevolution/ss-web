@@ -1,0 +1,401 @@
+/* mobile*/
+@media only screen and (max-width: 600px) {
+.index-section-wrapper .content.has-main-media h1:not(.OT_title) {
+		font-size: 30px!important;
+	}
+  
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+  #headerNav {display: none!important;}
+}
+
+
+
+
+
+/*  ----Header Logo & navigation ----------------------------  */
+
+/*/////////////////////////////////////////////////////*/
+/* Not sure what this does */
+/*
+#header #logoWrapper, #header #siteTitleWrapper {
+	position: relative; 
+left: 10%; -webkit-transform: translate(-50%,0); 
+-moz-transform: translate(-50%,0); 
+-ms-transform: translate(-50%,0); 
+-o-transform: translate(-50%,0); 
+transform: translate(-50%,0); 
+text-align: right;
+}
+
+#header #mainNavWrapper .index {
+margin: 0 0 0 12px !important; 
+text-align: right;
+}
+*/
+
+
+
+
+/* Not sure what this does END*/
+
+/*/////////////////////////////////////////////////////*/
+
+
+ 
+
+/* position of the nav bar  */
+
+#headerNav {
+  position: relative;
+  top: -40px!important;
+}
+
+/* position of the nav bar END */
+
+
+/*/////////////////////////////////////////////////////*/
+
+/* -------------Banners------------ */
+
+/* Padding of text within the banner */
+.desc-wrapper.tmpl-loading {
+	padding: 0px 0px 0px 0px!important;
+  margin-bottom: -53px!important;
+}
+/* Padding of text within the banner END*/
+
+
+/* -------------Banners  END------------ */
+
+/* Make logo -go-left- */
+ 
+ #header #logoWrapper, 
+ #header #siteTitleWrapper { 
+     position: relative; 
+     left: 15%; 
+     -webkit-transform: translate(-50%,0); 
+     -moz-transform: translate(-50%,0); 
+     -ms-transform: translate(-50%,0); 
+     -o-transform: translate(-50%,0); 
+     transform: translate(-50%,0); 
+     text-align: right !important;
+ }
+ 
+ #header #mainNavWrapper .index { 
+     margin: 0 0 0 12px !important; 
+     text-align: right !important;
+ }
+
+
+#mainNavigation div.collection {     
+margin: 0 !important; 
+}  
+
+#header #mainNavWrapper {     
+text-align: right !important; 
+} 
+
+#header #mainNavWrapper {     
+	text-align: right !important;     
+	right: 10%; 
+}
+
+
+/* Make logo -go-left- END */
+
+
+/*/////////////////////////////////////////////////////*/
+
+
+
+/*Moving hamburger to the right*/
+     
+     .mobile-nav-toggle-label {
+         width: 90% !important;
+         float: right !important;
+     }
+
+
+
+
+ @media only screen and (max-width: 768px) {
+   #header #logoWrapper #logoImage img,
+   #header #siteTitleWrapper #logoImage img {
+       position: relative; 
+     left: -40%; 
+     max-height: 100px;
+     max-width: 100%;
+     width: auto;
+     height: auto;
+   }
+ }
+ @media only screen and (max-width: 376px) {
+   #header #logoWrapper #logoImage img,
+   #header #siteTitleWrapper #logoImage img {
+       position: relative; 
+     left: -20%; 
+     max-height: 80px;
+     max-width: 100%;
+     width: auto;
+     height: auto;
+   }
+ }
+
+/*/////////////////////////////////////////////////////*/
+
+/* -------testimonal banner slider ------*/
+/* bottom thumnal strip */
+.sqs-gallery-thumbnails.sqs-gallery-design-strip {
+img {
+height: 10px !important;
+width: 10px !important;
+margin-right: 5px;
+border-radius: 100%;
+-webkit-filter: brightness(1);
+-moz-filter: brightness(1);
+-ms-filter: brightness(1);
+filter: brightness(1);left: 1px !important;
+transform: translate(-50%, 0%) !important;
+-moz-transform: translate(-50%, 0%) !important;
+-ms-transform: translate(-50%, 0%) !important;
+-webkit-transform: translate(-50%, 0%) !important;
+}
+}
+/* bottom thumnal strip END*/
+
+/* Quote marks */
+.sqs-gallery-block-slideshow:before {
+content: "x";
+font-size: 0px;
+height: 35px;
+width: 35px;
+background: url('http://static1.squarespace.com/static/59f70638e5dd5bfcb5d69fa2/t/5a0cdca40852290f354b1efb/1510792356166/quotemarks_white.png');
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+letter-spacing: -1px;
+display: block;
+position: absolute;
+text-align: center !important;
+width: 100% !important;
+margin-top: -25px !important;
+}
+/* Quote marks END*/
+
+
+
+/* Main text area */
+
+
+
+.sqs-gallery-block-slideshow {
+padding-top: 20px;
+background: none!important;
+max-height: 150px !important;
+overflow-y: hidden !important;
+
+	.slide {
+max-height: 150px;
+}
+
+.sqs-gallery-design-stacked-slide
+  {overflow: hidden;
+    img {
+    display: none!important; 
+  }
+ }
+
+	
+	.meta {
+background: none !important;
+width: 60% !important;
+text-align: center;
+left: 50% !important;
+transform: translate(-50%, 0%) !important;
+-moz-transform: translate(-50%, 0%) !important;
+-ms-transform: translate(-50%, 0%) !important;
+-webkit-transform: translate(-50%, 0%) !important;
+top: 0px !important;
+
+	.meta-inside {
+padding: 0 !important;
+position: absolute;
+width: 80% !important;
+overflow: hidden !important;
+top: 50% !important;
+left: 50% !important;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+	
+	
+.meta-title {
+color: #fff;
+font-weight: 500;
+letter-spacing: 1.1px;
+line-height: 21px;
+font-size: 18px;
+margin-bottom: 18px;
+}
+	
+	
+.meta-description p {
+color: #fff;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 900;
+font-size: 12px;
+}
+	
+	
+}
+.sqs-gallery-controls {
+.previous, .next {
+background: none;
+color: #fff !important;
+top: 40% !important;
+width: 10px !important;
+transition: all ease-in-out 400ms !important;
+}
+.previous:before, .next:before {
+font-size: 16px;
+}
+.previous:hover, .next:hover {
+background: none !important;
+color: #fff !important;
+}
+}
+
+}
+
+/* Main text area END*/
+
+
+
+
+
+@media (min-width:668px) and (max-width:1024px) {
+.sqs-gallery-block-slideshow {
+max-height: 210px !important;
+.slide {
+max-height: 210px !important;
+}
+.meta {
+display: block !important;
+max-width: 100% !important;
+height: 100% !important;
+width: 80% !important;
+}
+}
+}
+
+
+
+@media (max-width:667px) {
+.sqs-gallery-block-slideshow {
+.sqs-gallery-design-stacked {
+height: 260px !important;
+}
+max-height: 260px !important;
+.slide {
+max-height: 260px !important;
+}
+.meta {
+display: block !important;
+max-width: 100% !important;
+height: 100% !important;
+width: 100% !important;
+}
+}
+}
+
+
+
+.sqs-gallery-block-grid .slide:hover .image-slide-title {
+  background: #f08172 !important;
+  }
+  .image-slide-title p i {
+  color: #fff !important;
+  }
+  .slide img {
+    -webkit-filter: brightness(0.7);
+    -moz-filter: brightness(0.7);
+    filter: brightness(0.7);
+    transition: all ease-in-out 600ms !important;
+}
+.image-slide-title {
+    display: block !important;
+    color: #fff !important;
+    line-height: 25px;
+    text-align: center !important;
+  
+    position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+    width: 100% !important;
+  height: 100% !important;
+    transition: all ease-in-out 600ms !important;
+  }
+.image-slide-title p {
+    width: 80% !important;
+  position: absolute !important;
+  top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+  }
+.image-slide-title {
+  pointer-events: none !important;
+  white-space: initial !important;
+  text-overflow: initial !important;
+transform: translateY(-0.5em);
+-webkit-transform: translateY(-0.5em);
+-moz-transform: translateY(-0.5em);
+-ms-transform: translateY(-0.5em);
+}
+.image-slide-title p strong {
+  display: block;
+  margin-bottom: 5px !important;
+  font-size: 18px !important;
+}
+.image-slide-title p {
+    padding-left: 10px;
+    padding-right: 10px;
+  margin: 0px !important;
+}
+  .slide:hover .image-slide-title p i {color: #fff !important;}
+.image-slide-title p i {
+  font-style: initial !important;
+    display: block;
+    color: #f08172 !important;
+    line-height: 35px;
+    font-size: 13px !important;
+    transition: all ease-in-out 600ms !important;
+  }
+@media (max-width : 870px) {
+.image-slide-title {
+    height: 70.2% !important;
+    padding-top: 30% !important;
+  }
+}
+@media (max-width : 768px) {
+  .image-slide-title {
+    font-size: 14px !important;
+    height: 70.2% !important;
+    padding-top: 20% !important;
+  }
+  .image-slide-title a {
+    line-height: 25px !important;
+  }
+}
+.sqs-lightbox-meta{
+display: none !important;
+}
