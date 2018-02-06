@@ -1,0 +1,51 @@
+<style>
+ .index-section-wrapper.page-content h1 {
+		padding: 0px 0px 0px 0px!important;
+	}
+
+
+  
+ /* Smaller Banner image text */
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-description p, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p {
+  
+	font-size: 30px!important;
+  font-weight: 200!important;
+	line-height: 110%!important;
+  letter-spacing: 2px!important;
+  margin: auto;
+	 color:  rgba(255,255,255, 1)!important;
+}
+/* Smaller Banner image text END */
+/* Larger Banner image text */
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-description p>strong, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p>strong {
+  font-size: 50px!important;
+    font-weight: 300!important;
+}
+/* Larger Banner image text END */
+  
+  
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 420px) { 
+   /* Smaller Banner image text */
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-description p, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p {
+  
+	font-size: 15px!important;
+  font-weight: 200!important;
+	line-height: 110%!important;
+  letter-spacing: 2px!important;
+  margin: auto;
+	 color:  rgba(255,255,255, 1)!important;
+}
+/* Smaller Banner image text END */
+/* Larger Banner image text */
+.has-promoted-gallery #promotedGalleryWrapper .sqs-gallery-block-slideshow .meta .meta-description p>strong, .has-promoted-gallery .promoted-gallery-wrapper .sqs-gallery-block-slideshow .meta .meta-description p>strong {
+  font-size: 25px!important;
+    font-weight: 300!important;
+}
+/* Larger Banner image text END */
+  
+  
+  }
+
+
+</style>

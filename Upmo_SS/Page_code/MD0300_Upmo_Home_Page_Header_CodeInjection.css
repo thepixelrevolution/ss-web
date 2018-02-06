@@ -1,0 +1,91 @@
+<style>
+#page {
+    padding-bottom: 30px!important;
+
+
+}
+  
+ /* plug in for gallery images */
+  
+  .sqs-gallery-block-grid .slide:hover .image-slide-title {
+  background: rgba(97, 176, 202, 0.8)!important;
+  }
+  .image-slide-title p i {
+  color: #fff !important;
+  }
+  .slide img {
+    -webkit-filter: brightness(1);
+    -moz-filter: brightness(1);
+    filter: brightness(1);
+    transition: all ease-in-out 600ms !important;
+}
+.image-slide-title {
+    display: block !important;
+    color: #fff !important;
+    line-height: 25px;
+    text-align: center !important;
+  
+    position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+    width: 100% !important;
+  height: 100% !important;
+    transition: all ease-in-out 600ms !important;
+  }
+.image-slide-title p {
+    width: 80% !important;
+  position: absolute !important;
+  top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+  }
+.image-slide-title {
+  pointer-events: none !important;
+  white-space: initial !important;
+  text-overflow: initial !important;
+transform: translateY(-0.5em);
+-webkit-transform: translateY(-0.5em);
+-moz-transform: translateY(-0.5em);
+-ms-transform: translateY(-0.5em);
+}
+.image-slide-title p strong {
+  display: block;
+  margin-bottom: 5px !important;
+  font-size: 18px !important;
+}
+.image-slide-title p {
+    padding-left: 10px;
+    padding-right: 10px;
+  margin: 0px !important;
+}
+  .slide:hover .image-slide-title p i {color: #fff !important;}
+.image-slide-title p i {
+  font-style: initial !important;
+    display: block;
+    color: rgba(255, 99, 25, 1)!important;
+    line-height: 35px;
+    font-size: 13px !important;
+    transition: all ease-in-out 600ms !important;
+  }
+@media (max-width : 870px) {
+.image-slide-title {
+    height: 70.2% !important;
+    padding-top: 30% !important;
+  }
+}
+@media (max-width : 768px) {
+  .image-slide-title {
+    font-size: 14px !important;
+    height: 70.2% !important;
+    padding-top: 20% !important;
+  }
+  .image-slide-title a {
+    line-height: 25px !important;
+  }
+}
+.sqs-lightbox-meta{display: none !important;} 
+  
+</style>
